@@ -1,16 +1,16 @@
 #include <stdio.h>
 
-int main() {  
-    int score = 90.5;     // int ได้นับได้แค่สองตำแหน่ง 90 (ตัด .5 ออก)
+int main() {       // int ใช้สำหรับเลขจำนวนเต็ม .5 จะถูกตัดทิ้ง
+    int score = 90.5; 
     printf("Score = %d\n", score);
     return 0;
 }
 
 #include <stdio.h>
 
-int main() {
-    float score = 90.5;   //float ได้ 90.5 ครบตามที่ต้องการ
+int main() {       // ได้ค่าทศนิยมตามต้องการ เพราะ float เก็บเลขทศนิยมได้
+    float score = 90.5;
     printf("Score = %.1f\n", score);  
     return 0;
 }
-  // ถ้าเลือกผิด ค่าที่ออกก็จะผิด หรือ Error ได้
+ // หากใช้ผิด ค่าที่ออกก็จะผิด

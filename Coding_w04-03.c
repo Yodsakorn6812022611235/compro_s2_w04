@@ -1,15 +1,14 @@
-#include <stdio.h>   
+#include <stdio.h>
 
 int main() {
-    char nameInitial = 'K';           // ตัวอักษรแรกของชื่อ
-    int age = 20;                     // อายุ
-    float weight = 48.5;              // น้ำหนัก
-    char gender[] = "Female";         // เพศ
+    char nameInitial = 'P';           // ตัวอักษรแรกของชื่อ
+    int age = 19;                     // อายุ
+    float weight =94;                 // น้ำหนัก
+    char gender[] = "man";           // เพศ
 
-    
     printf("nameInitial = %c\n", nameInitial);
     printf("age = %d\n", age);
-    printf("weight = %.1f\n", weight);     
+    printf("weight = %.1f\n", weight);
     printf("gender = %s\n", gender);
 
     return 0;

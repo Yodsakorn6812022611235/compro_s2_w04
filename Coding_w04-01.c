@@ -1,7 +1,7 @@
-#include <stdio.h>     // Keyword: #include
+#include <stdio.h>          //keyword,identifier
 
-int main() {          // Keyword: int, Identifier: main
-    printf("Hello,\n");       // Identifier: printf
-    printf("C Tokens!\n");    // Constant
-    return 0;        // Keyword: return, Constant: 0, Operator: ;
+int main() {                //keyword,identifier
+    printf("Hello,\n");     //constant,identifier
+    printf("C Tokens!\n");  //constant
+    return 0;               //keyword,constant,opertor
 }
