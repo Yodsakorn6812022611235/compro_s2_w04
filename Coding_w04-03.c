@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-    char nameInitial = 'P';           // ตัวอักษรแรกของชื่อ
+    char nameInitial = 'Y';           // ตัวอักษรแรกของชื่อ
     int age = 19;                     // อายุ
-    float weight =94;                 // น้ำหนัก
+    float weight =75;                 // น้ำหนัก
     char gender[] = "man";           // เพศ
 
     printf("nameInitial = %c\n", nameInitial);
